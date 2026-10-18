@@ -22,7 +22,7 @@ jobs:
 
       - name: Extract project ZIP
         run: |
-          unzip -o VEXOGPT_GitHub_Upload.zip -d project
+          unzip -o VEXOGPT_GitHub_Upload_FIXED.zip -d project
           ls -la project
           test -f project/android/app/build.gradle.kts
 
